@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="drop.css" />
+    <link rel="shortcut icon" href="./img/fav.png" type="image/x-icon" />
+    <title>Google</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul>
+          <li><a href="https://www.gmail.com/" target="_blank">Gmail</a></li>
+          <li><a href="https://www.google.co.in/imghp?hl=en&authuser=0&ogbl" target="_blank">Images</a></li>
+        </ul>
+        <div class="dropdown">
+          <button onclick="myFunction()" style="display: contents">
+            <img src="https://img.icons8.com/color/60/000000/circled-menu.png" class="app-icon" />
+          </button>
+
+          <div id="btn">
+            <div class="dropdown-content">
+              <div class="row">
+                <div class="column">
+                  <a href=""><img src="https://img.icons8.com/color/48/000000/guest-male.png" />Account</a>
+                  <a href=""><img src="https://img.icons8.com/fluency/48/000000/google-maps-new.png" />Maps</a>
+                  <a href=""><img src="https://img.icons8.com/color/48/000000/google-news.png" />News</a>
+                </div>
+                <div class="column">
+                  <a href=""><img src="https://img.icons8.com/fluency/50/000000/google-logo.png" />Google</a>
+                  <a href=""><img src="./icons/yt-icon.png" />Youtube</a>
+                  <a href=""><img src="https://img.icons8.com/color/48/000000/gmail-new.png" />Gmail</a>
+                </div>
+                <div class="column">
+                  <a href=""><img src="https://img.icons8.com/color/48/000000/google-play-music.png" />Music</a>
+                  <a href=""><img src="https://img.icons8.com/color/48/000000/google-play.png" />Play</a>
+                  <a href=""><img src="https://img.icons8.com/color/48/000000/google-meet.png" />Account</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button id="sign_in" onclick="myFunction()"><a href="https://www.gmail.com/" target="_blank">Sign In </a></button>
+      </nav>
+    </header>
+
+    <!-- Images/ -->
+    <section class="container">
+      <img src="./img/logo.png" alt="google logo" class="logo" />
+      <form>
+        <br />
+        <div class="s-box">
+          <img src="./img/icon.png" class="search-icon" alt="" />
+          <input type="text" class="s-input" />
+          <img src="./img/voice-search.png" class="vs-icon" alt="" />
+
+          <input type="submit" class="s-btn" value="google search" />
+          <input type="submit" class="s-btn" value="I'm feeling lucky " />
+        </div>
+      </form>
+
+      <div class="lang">
+        Google offered in:
+        <a href="#">हिंदी</a>
+        <a href="#">বাংলা </a>
+        <a href="#">తెలుగు</a>
+        <a href="#">मराठी </a>
+        <a href="#">தமிழ் </a>
+        <a href="#">ગુજરાતી </a>
+        <a href="#">ಕನ್ನಡ </a>
+        <a href="#">മലയാളം </a>
+        <a href="#">ਪੰਜਾਬੀ </a>
+      </div>
+    </section>
+    <!-- footer -->
+
+    <footer>
+      <li class="special"><a href="#">India</a></li>
+      <ul class="footer-left">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Bussiness</a></li>
+        <li><a href="#">How Search Work</a></li>
+      </ul>
+      <ul class="footer-right">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">settings</a></li>
+      </ul>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
